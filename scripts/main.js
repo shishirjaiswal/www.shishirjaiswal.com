@@ -5,7 +5,7 @@ AOS.init({
 });
 
 // Add your javascript here
-document.addEventListener('DOMContentLoaded', function () {
+/* document.addEventListener('DOMContentLoaded', function () {
     const zooming = new Zooming({
         bgColor: 'rgb(0, 0, 0)',
         bgOpacity: 0.8,
@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     zooming.listen('.img-zoomable')
-})
+}) */
 
 
 // POST API REQUEST
-async function post_visitor() {
+/* async function post_visitor() {
     try {
         //let response = await fetch('https://fubnpssn8l.execute-api.ca-central-1.amazonaws.com/Prod/visitor_count/', {
         let response = await fetch('https://fubnpssn8l.execute-api.ca-central-1.amazonaws.com/Prod/visitor_count', {
@@ -32,7 +32,7 @@ async function post_visitor() {
     } catch (err) {
         console.error(err);
     }
-}
+} */
 
 // GET API REQUEST
 async function get_visitors() {
