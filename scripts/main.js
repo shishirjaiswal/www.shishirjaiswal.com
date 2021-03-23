@@ -39,7 +39,6 @@ async function get_visitors() {
     // call post api request function
     //await post_visitor();
     try {
-        //let response = await fetch('https://fubnpssn8l.execute-api.ca-central-1.amazonaws.com/Prod/visitor_count/', {
         let response = await fetch('https://fubnpssn8l.execute-api.ca-central-1.amazonaws.com/Prod/visitor_count', {
             method: 'GET',
             headers: {
